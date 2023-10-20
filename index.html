@@ -27,7 +27,6 @@
 			<li><a href="#top">About</a></li>
 			<li><a href="#portfolio">My projects</a></li>
 			<li><a href="#certificates">My cloud certifications</a></li>
-			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 
@@ -443,49 +442,6 @@
 		</div>
 	</article>
 
-	<!-- Contact -->
-	<article id="contact" class="wrapper style1">
-		<div class="container medium">
-			<header>
-				<h2>Contact form</h2>
-			</header>
-			<div class="row">
-				<div class="col-12">
-					<form id="gform" name="gform" target="hidden_iframe" method="get"
-						action="https://docs.google.com/forms/d/e/1FAIpQLScvwM0NTkMjc1Of9fX2oSxU71YBSBYQsTz_BZfTQGCxFXg6sA/formResponse?">
-						<div class="row">
-							<div class="col-6 col-12-small">
-								<input type="text" name="entry.2005620554" id="entry.2005620554"
-									placeholder="Your name" />
-							</div>
-							<div class="col-6 col-12-small">
-								<input type="text" name="entry.1045781291" id="entry.1045781291"
-									placeholder="Your email" />
-							</div>
-							<div class="col-12">
-								<input type="text" name="entry.1065046570" id="entry.1065046570"
-									placeholder="Subject" />
-							</div>
-							<div class="col-12">
-								<textarea name="entry.1166974658" id="entry.1166974658"
-									placeholder="Message"></textarea>
-							</div>
-							<div class="col-12">
-								<ul class="actions">
-									<li><input type="submit" value="Send message" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-		<!-- Form submission divs/iframes -->
-		<div id="sucessSubmit"></div>
-		<iframe name="hidden_iframe" title="hidden_iframe" id="hidden_iframe"></iframe>
-
-	</article>
-
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -506,19 +462,6 @@
 					type: 'fade',
 				}).mount();
 			}
-		});
-	</script>
-	<!-- Form submission scripts -->
-	<script>
-		$('#gform').on('submit', function (e) {
-			$('#contact .container').fadeOut(2000);
-			$('#sucessSubmit').prepend('<h2>Thank you for getting in touch.</h2><p>I will get back to you as soon as possible! 😃</p>');
-			$('#sucessSubmit').fadeIn(4000);
-		})
-	</script>
-	<script>
-		$(document).on("keydown", ":input:not(textarea)", function (event) {
-			return event.key != "Enter";
 		});
 	</script>
 </body>
