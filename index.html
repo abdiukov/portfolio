@@ -2,470 +2,408 @@
 <html lang="en">
 
 <head>
-	<title>Ashton Abdiukov | C# .NET Developer</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="assets/splide/dist/css/splide.min.css">
+    <title>Ashton Abdiukov | C# .NET Developer</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="assets/splide/dist/css/splide.min.css">
+    <link rel="stylesheet" href="assets/css/main.css"/>
 	<link rel="icon" type="image/svg+xml" href="favicon.svg">
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="icon" href="data:,">
-	<script type="application/ld+json">
-		{
-			"@context" : "https://schema.org",
-			"@type" : "WebSite",
-			"name" : "Ashton Abdiukov | C# .NET Developer",
-			"url" : "https://ashton-abdiukov.com/"
-		}
-	</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Ashton Abdiukov | C# .NET Developer",
+            "url": "https://ashton-abdiukov.com/"
+        }
+    </script>
 </head>
 
 
 <body class="is-preload">
 
-	<!-- Nav -->
-	<nav id="nav">
-		<ul class="container">
-			<li><a href="#top">About</a></li>
-			<li><a href="#portfolio">My projects</a></li>
-			<li><a href="#certificates">My certifications</a></li>
-		</ul>
-	</nav>
+<!-- Nav -->
+<nav id="nav">
+    <ul class="container">
+        <li><a href="#top">About</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#certificates">Certifications</a></li>
+    </ul>
+</nav>
 
-	<!-- Home -->
-	<article id="top" class="wrapper style1">
-		<div class="container">
-			<div class="row">
-				<div class="col-4 col-5-large col-12-medium">
-					<span class="image fit"><img src="images/photograph.png" alt="photograph of me" /></span>
-				</div>
-				<div class="col-8 col-7-large col-12-medium">
-					<header>
-						<h1>Hi. I&#39;m <strong>Ashton Abdiukov</strong>.</h1>
-					</header>
-					<p>Welcome to my <strong>portfolio page!</strong><br />I&#39;m a C# .NET developer, and I enjoy
-						writing clean and maintainable code.</p>
-					<a href="#portfolio" class="button scrolly">Learn about what I do</a>
-					<hr />
-					<a class="button scrolly alt" href="files/Ashton_Abdiukov_Resume.pdf" target="_blank">Resume</a>
-					<a target="_blank" class="button scrolly alt" href="https://github.com/A-Abdiukov">GitHub
-						profile</a>
-					<a target="_blank" class="button scrolly alt"
-						href="https://www.linkedin.com/in/ashton-abdiukov/">LinkedIn profile</a>
-				</div>
-			</div>
-		</div>
-	</article>
+<!-- Home -->
+<article id="top" class="wrapper style1">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-5-large col-12-medium">
+                <span class="image fit"><img src="images/photograph.png" alt="photograph of me"/></span>
+            </div>
+            <div class="col-8 col-7-large col-12-medium">
+                <header>
+                    <h1>Hi. I&#39;m <strong>Ashton Abdiukov</strong>.</h1>
+                </header>
+				<p>Welcome to my <strong>portfolio page!</strong><br/>
+					I&#39;m a C# .NET developer specializing in backend development.
+				</p>
+				<a href="#portfolio" class="button scrolly">Learn about what I do</a>
+                <hr/>
+                <a class="button scrolly alt" href="files/Ashton_Abdiukov_Resume.pdf" target="_blank">Resume</a>
+                <a target="_blank" class="button scrolly alt" href="https://github.com/A-Abdiukov">GitHub
+                    profile</a>
+                <a target="_blank" class="button scrolly alt"
+                   href="https://www.linkedin.com/in/ashton-abdiukov/">LinkedIn profile</a>
+            </div>
+        </div>
+    </div>
+</article>
 
 
+<!-- Portfolio -->
+<article id="portfolio" class="wrapper style2">
+    <div class="container">
+		<header>
+			<h2>Here are some projects I've worked on:</h2>
+		</header>
+        <div class="row" id="applications">
 
-	<!-- Portfolio -->
-	<article id="portfolio" class="wrapper style2">
-		<div class="container">
-			<header>
-				<h2>Here are my projects:</h2>
-			</header>
-			<div class="row" id="applications">
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <div id="image-slider2" class="splide image featured">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="images/applications/chess.png" loading="lazy"
+                                         alt="chess application (1st screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/chess2.png" loading="lazy"
+                                         alt="chess application (2nd screenshot)"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3><a target="_blank" href="https://github.com/A-Abdiukov/chess-with-ai">Chess with AI</a></h3>
+                    <div>
+                        <a target="_blank" href="https://github.com/A-Abdiukov/chess-with-ai" class="btnGreen">View
+                            on
+                            GitHub</a>&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <p class="left">A chess game that includes all chess rules, a competent chess artificial
+                        intelligence, and
+                        a response GUI.
+                    </p>
+                    <span class="tag">C#</span>
+                    <span class="tag">WinForms</span>
+                    <span class="tag">MVC pattern</span>
+                    <span class="tag">Artificial Intelligence</span>
+                    <span class="tag">Responsive GUI</span>
+                </article>
+            </div>
 
-				<!--
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<div id="image-slider1" class="splide image featured">
-							<div class="splide__track">
-								<ul class="splide__list">
-									<li class="splide__slide">
-										<img src="images/applications/educationprovider.png"
-											alt="educational facility management application (1st screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/educationprovider2.png" loading="lazy"
-											alt="educational facility management application (2nd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/educationprovider3.png" loading="lazy"
-											alt="educational facility management application (3rd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/educationprovider4.png" loading="lazy"
-											alt="educational facility management application (4th screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/educationprovider5.png" loading="lazy"
-											alt="educational facility management application (5th screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/educationprovider6.png" loading="lazy"
-											alt="educational facility management application (6th screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/educationprovider7.png" loading="lazy"
-											alt="educational facility management application (7th screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/educationprovider8.png" loading="lazy"
-											alt="educational facility management application (8th screenshot)" />
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h3><a target="_blank"
-								href="https://github.com/A-Abdiukov/education-provider-management-application">Education
-								provider management application</a></h3>
-						<div>
-							<a target="_blank"
-								href="https://github.com/A-Abdiukov/education-provider-management-application"
-								class="btnGreen">View
-								on
-								GitHub</a>&nbsp;&nbsp;&nbsp;
-						</div>
-						<p class="left">A fully responsive desktop application with over 10,000 lines of code that
-							manages
-							college enrolments. The database is hosted on Microsoft Azure.</p>
-						<span class="tag">C#</span>
-						<span class="tag">WPF</span>
-						<span class="tag">MVC pattern</span>
-						<span class="tag">Microsoft Azure</span>
-						<span class="tag">Stored Procedures</span>
-						<span class="tag">Responsive GUI</span>
-					</article>
-				</div>
-				-->
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <div id="image-slider3" class="splide image featured">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="images/applications/sydgenerator.png"
+                                         alt="sydney data generator application (1st screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/sydgenerator2.png" loading="lazy"
+                                         alt="sydney data generator application (2nd screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/sydgenerator3.png" loading="lazy"
+                                         alt="sydney data generator application (3rd screenshot)"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3><a target="_blank"
+                           href="https://github.com/A-Abdiukov/sydney-bulk-identity-generator">Sydney
+                        bulk identity
+                        generator</a></h3>
+                    <div>
+                        <a target="_blank" href="https://github.com/A-Abdiukov/sydney-bulk-identity-generator"
+                           class="btnGreen">View on
+                            GitHub</a>&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <p class="left">
+                        A desktop application that generates a large amount of fake personal details for people
+                        living in Sydney, Australia.
+                        Quite useful for testing.</p>
+                    <span class="tag">C#</span>
+                    <span class="tag">WPF</span>
+                    <span class="tag">MVC pattern</span>
+                    <span class="tag">Responsive GUI</span>
+                </article>
+            </div>
 
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<div id="image-slider2" class="splide image featured">
-							<div class="splide__track">
-								<ul class="splide__list">
-									<li class="splide__slide">
-										<img src="images/applications/chess.png" loading="lazy"
-											alt="chess application (1st screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/chess2.png" loading="lazy"
-											alt="chess application (2nd screenshot)" />
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h3><a target="_blank" href="https://github.com/A-Abdiukov/chess-with-ai">Chess with AI</a></h3>
-						<div>
-							<a target="_blank" href="https://github.com/A-Abdiukov/chess-with-ai" class="btnGreen">View
-								on
-								GitHub</a>&nbsp;&nbsp;&nbsp;
-						</div>
-						<p class="left">A chess game that includes all chess rules, a competent chess artificial
-							intelligence, and
-							a response GUI.
-						</p>
-						<span class="tag">C#</span>
-						<span class="tag">WinForms</span>
-						<span class="tag">MVC pattern</span>
-						<span class="tag">Artificial Intelligence</span>
-						<span class="tag">Responsive GUI</span>
-					</article>
-				</div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <div id="image-slider4" class="splide image featured">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="images/applications/order.png"
+                                         alt="order management application (1st screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/order2.png" loading="lazy"
+                                         alt="order management application (2rd screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/order3.png" loading="lazy"
+                                         alt="order management application (3rd screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/order4.png" loading="lazy"
+                                         alt="order management application (4th screenshot)"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3><a target="_blank"
+                           href="https://github.com/A-Abdiukov/order-management-system-wpf">Warehouse
+                        order
+                        management system</a>
+                    </h3>
+                    <div>
+                        <a target="_blank" href="https://github.com/A-Abdiukov/order-management-system-wpf"
+                           class="btnGreen">View on GitHub</a>&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <p class="left">An order management system, which includes 3rd party login authentication for
+                        extra security. Allows the administrator to place orders, change order status, check whether
+                        the order can be fulfilled, and cancel existing orders. The application then reflects those
+                        changes onto the SQL database.</p>
+                    <span class="tag">C#</span>
+                    <span class="tag">WPF</span>
+                    <span class="tag">MVC pattern</span>
+                    <span class="tag">SQL Server</span>
+                    <span class="tag">Stored Procedures</span>
+                    <span class="tag">3rd party API</span>
+                    <span class="tag">Responsive GUI</span>
+                </article>
+            </div>
 
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<div id="image-slider3" class="splide image featured">
-							<div class="splide__track">
-								<ul class="splide__list">
-									<li class="splide__slide">
-										<img src="images/applications/sydgenerator.png"
-											alt="sydney data generator application (1st screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/sydgenerator2.png" loading="lazy"
-											alt="sydney data generator application (2nd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/sydgenerator3.png" loading="lazy"
-											alt="sydney data generator application (3rd screenshot)" />
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h3><a target="_blank"
-								href="https://github.com/A-Abdiukov/sydney-bulk-identity-generator">Sydney
-								bulk identity
-								generator</a></h3>
-						<div>
-							<a target="_blank" href="https://github.com/A-Abdiukov/sydney-bulk-identity-generator"
-								class="btnGreen">View on
-								GitHub</a>&nbsp;&nbsp;&nbsp;
-						</div>
-						<p class="left">
-							A desktop application that generates a large amount of fake personal details for people
-							living in Sydney, Australia.
-							Quite useful for testing.</p>
-						<span class="tag">C#</span>
-						<span class="tag">WPF</span>
-						<span class="tag">MVC pattern</span>
-						<span class="tag">Responsive GUI</span>
-					</article>
-				</div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <div id="image-slider5" class="splide image featured">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="images/applications/csv.png"
+                                         alt="csv tax application (1st screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/csv2.png" loading="lazy"
+                                         alt="csv tax application (2nd screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/csv3.png" loading="lazy"
+                                         alt="csv tax application (3rd screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/csv4.png" loading="lazy"
+                                         alt="csv tax application (4th screenshot)"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3><a target="_blank" href="https://github.com/A-Abdiukov/payroll-csv-calculator">Payroll tax
+                        assistant</a>
+                    </h3>
+                    <div>
+                        <a target="_blank" href="https://github.com/A-Abdiukov/payroll-csv-calculator"
+                           class="btnGreen">View on
+                            GitHub</a>&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <p class="left">A desktop application that calculates payroll tax from a spreadsheet.</p>
+                    <span class="tag">C#</span>
+                    <span class="tag">WinForms</span>
+                    <span class="tag">Responsive GUI</span>
+                </article>
+            </div>
 
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<div id="image-slider4" class="splide image featured">
-							<div class="splide__track">
-								<ul class="splide__list">
-									<li class="splide__slide">
-										<img src="images/applications/order.png"
-											alt="order management application (1st screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/order2.png" loading="lazy"
-											alt="order management application (2rd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/order3.png" loading="lazy"
-											alt="order management application (3rd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/order4.png" loading="lazy"
-											alt="order management application (4th screenshot)" />
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h3><a target="_blank"
-								href="https://github.com/A-Abdiukov/order-management-system-wpf">Warehouse
-								order
-								management system</a>
-						</h3>
-						<div>
-							<a target="_blank" href="https://github.com/A-Abdiukov/order-management-system-wpf"
-								class="btnGreen">View on GitHub</a>&nbsp;&nbsp;&nbsp;
-						</div>
-						<p class="left">An order management system, which includes 3rd party login authentication for
-							extra security. Allows the administrator to place orders, change order status, check whether
-							the order can be fulfilled, and cancel existing orders. The application then reflects those
-							changes onto the SQL database.</p>
-						<span class="tag">C#</span>
-						<span class="tag">WPF</span>
-						<span class="tag">MVC pattern</span>
-						<span class="tag">SQL Server</span>
-						<span class="tag">Stored Procedures</span>
-						<span class="tag">3rd party API</span>
-						<span class="tag">Responsive GUI</span>
-					</article>
-				</div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <div id="image-slider6" class="splide image featured">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="images/applications/xamarin.png"
+                                         alt="xamarin employee management application (1st screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/xamarin2.png" loading="lazy"
+                                         alt="xamarin employee management application (2nd screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/xamarin3.png" loading="lazy"
+                                         alt="xamarin employee management application (3rd screenshot)"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3><a target="_blank"
+                           href="https://github.com/A-Abdiukov/mobile-employee-management">Android/iOS
+                        employee manager</a>
+                    </h3>
+                    <div>
+                        <a target="_blank" href="https://github.com/A-Abdiukov/mobile-employee-management"
+                           class="btnGreen">View on
+                            GitHub</a>
+                    </div>
+                    <p class="left">
+                        The front-end is a Xamarin(Android/iOS) app with a friendly user interface,
+                        allowing users to create, retrieve, update and delete employees.
+                        The back-end is an ASP.NET Web API.</p>
+                    <span class="tag">C#</span>
+                    <span class="tag">Xamarin</span>
+                    <span class="tag">ASP.NET</span>
+                </article>
+            </div>
 
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<div id="image-slider5" class="splide image featured">
-							<div class="splide__track">
-								<ul class="splide__list">
-									<li class="splide__slide">
-										<img src="images/applications/csv.png"
-											alt="csv tax application (1st screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/csv2.png" loading="lazy"
-											alt="csv tax application (2nd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/csv3.png" loading="lazy"
-											alt="csv tax application (3rd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/csv4.png" loading="lazy"
-											alt="csv tax application (4th screenshot)" />
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h3><a target="_blank" href="https://github.com/A-Abdiukov/payroll-csv-calculator">Payroll tax
-								assistant</a>
-						</h3>
-						<div>
-							<a target="_blank" href="https://github.com/A-Abdiukov/payroll-csv-calculator"
-								class="btnGreen">View on
-								GitHub</a>&nbsp;&nbsp;&nbsp;
-						</div>
-						<p class="left">A desktop application that calculates payroll tax from a spreadsheet.</p>
-						<span class="tag">C#</span>
-						<span class="tag">WinForms</span>
-						<span class="tag">Responsive GUI</span>
-					</article>
-				</div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <div id="image-slider7" class="splide image featured">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="images/applications/texteditor.png"
+                                         alt="text editor application (1st screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/texteditor3.png" loading="lazy"
+                                         alt="text editor application (2nd screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/texteditor4.png" loading="lazy"
+                                         alt="text editor application (3rd screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/texteditor2.png" loading="lazy"
+                                         alt="text editor application (4th screenshot)"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3><a target="_blank" href="https://github.com/A-Abdiukov/java-rtf-text-editor">Java text
+                        editor</a></h3>
+                    <div>
+                        <a target="_blank" href="https://github.com/A-Abdiukov/java-rtf-text-editor"
+                           class="btnGreen">View on
+                            GitHub</a>&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <p class="left">A desktop text editor that can modify .rtf files. Includes simple authentication
+                        and error logging.</p>
+                    <span class="tag">Java</span>
+                    <span class="tag">Swing</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Responsive GUI</span>
+                </article>
+            </div>
 
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<div id="image-slider6" class="splide image featured">
-							<div class="splide__track">
-								<ul class="splide__list">
-									<li class="splide__slide">
-										<img src="images/applications/xamarin.png"
-											alt="xamarin employee management application (1st screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/xamarin2.png" loading="lazy"
-											alt="xamarin employee management application (2nd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/xamarin3.png" loading="lazy"
-											alt="xamarin employee management application (3rd screenshot)" />
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h3><a target="_blank"
-								href="https://github.com/A-Abdiukov/mobile-employee-management">Android/iOS
-								employee manager</a>
-						</h3>
-						<div>
-							<a target="_blank" href="https://github.com/A-Abdiukov/mobile-employee-management"
-								class="btnGreen">View on
-								GitHub</a>
-						</div>
-						<p class="left">
-							The front-end is a Xamarin(Android/iOS) app with a friendly user interface,
-							allowing users to create, retrieve, update and delete employees.
-							The back-end is an ASP.NET Web API.</p>
-						<span class="tag">C#</span>
-						<span class="tag">Xamarin</span>
-						<span class="tag">ASP.NET</span>
-					</article>
-				</div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <div id="image-slider8" class="splide image featured">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="images/applications/xml-storage.png"
+                                         alt="xml storage application (1st screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/xml-storage2.png" loading="lazy"
+                                         alt="xml storage application (2nd screenshot)"/>
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/applications/xml-storage3.png" loading="lazy"
+                                         alt="xml storage application (3rd screenshot)"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3><a target="_blank" href="https://github.com/A-Abdiukov/xml-storage">Student
+                        details storage</a></h3>
+                    <div>
+                        <a target="_blank" href="https://github.com/A-Abdiukov/xml-storage" class="btnGreen">View on
+                            GitHub</a>&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <p class="left">
+                        A simple desktop application that can create, retrieve, update and delete
+                        student details stored in an .xml file.</p>
+                    <span class="tag">C#</span>
+                    <span class="tag">WinForms</span>
+                </article>
+            </div>
+        </div>
+    </div>
+</article>
 
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<div id="image-slider7" class="splide image featured">
-							<div class="splide__track">
-								<ul class="splide__list">
-									<li class="splide__slide">
-										<img src="images/applications/texteditor.png"
-											alt="text editor application (1st screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/texteditor3.png" loading="lazy"
-											alt="text editor application (2nd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/texteditor4.png" loading="lazy"
-											alt="text editor application (3rd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/texteditor2.png" loading="lazy"
-											alt="text editor application (4th screenshot)" />
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h3><a target="_blank" href="https://github.com/A-Abdiukov/java-rtf-text-editor">Java text
-								editor</a></h3>
-						<div>
-							<a target="_blank" href="https://github.com/A-Abdiukov/java-rtf-text-editor"
-								class="btnGreen">View on
-								GitHub</a>&nbsp;&nbsp;&nbsp;
-						</div>
-						<p class="left">A desktop text editor that can modify .rtf files. Includes simple authentication
-							and error logging.</p>
-						<span class="tag">Java</span>
-						<span class="tag">Swing</span>
-						<span class="tag">MySQL</span>
-						<span class="tag">Responsive GUI</span>
-					</article>
-				</div>
+<!-- Certifications -->
+<article id="certificates" class="wrapper style2">
+    <div class="container" id="certificate-container">
+        <header>
+            <h2>I am certified in the following:</h2>
+        </header>
+        <div class="row aln-center">
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <img class="image" alt="Cloud security knowledge logo"
+                         src="images/certificates/cloud_security_knowledge_logo.png"/>
+                    <h3><a target="_blank" href="files/Cloud_Security_Knowledge.pdf">Certificate of Cloud Security
+                        Knowledge</a></h3>
+                    <a target="_blank" href="files/Cloud_Security_Knowledge.pdf" class="btnGreen">View certificate</a>
+                </article>
+            </div>
 
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<div id="image-slider8" class="splide image featured">
-							<div class="splide__track">
-								<ul class="splide__list">
-									<li class="splide__slide">
-										<img src="images/applications/xml-storage.png"
-											alt="xml storage application (1st screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/xml-storage2.png" loading="lazy"
-											alt="xml storage application (2nd screenshot)" />
-									</li>
-									<li class="splide__slide">
-										<img src="images/applications/xml-storage3.png" loading="lazy"
-											alt="xml storage application (3rd screenshot)" />
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h3><a target="_blank" href="https://github.com/A-Abdiukov/xml-storage">Student
-								details storage</a></h3>
-						<div>
-							<a target="_blank" href="https://github.com/A-Abdiukov/xml-storage" class="btnGreen">View on
-								GitHub</a>&nbsp;&nbsp;&nbsp;
-						</div>
-						<p class="left">
-							A simple desktop application that can create, retrieve, update and delete
-							student details stored in an .xml file.</p>
-						<span class="tag">C#</span>
-						<span class="tag">WinForms</span>
-					</article>
-				</div>
-			</div>
-		</div>
-	</article>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <img class="image" alt="microsoft azure fundamentals logo"
+                         src="images/certificates/microsoft_azure_fundamentals_logo.png"/>
+                    <h3><a target="_blank" href="files/Azure_Fundamentals.pdf">Microsoft Certified: Azure
+                        Fundamentals</a></h3>
+                    <a target="_blank" href="files/Azure_Fundamentals.pdf" class="btnGreen">View certificate</a>
+                </article>
+            </div>
 
-	<!-- Certifications -->
-	<article id="certificates" class="wrapper style2">
-		<div class="container" id="certificate-container">
-			<header>
-				<h2>Here are my certifications:</h2>
-			</header>
-			<div class="row aln-center">
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<img class="image" alt="Cloud security knowledge logo"
-							src="images/certificates/cloud_security_knowledge_logo.png" />
-						<h3><a target="_blank" href="files/Cloud_Security_Knowledge.pdf">Certificate of Cloud Security Knowledge</a></h3>
-						<a target="_blank" href="files/Cloud_Security_Knowledge.pdf" class="btnGreen">View certificate</a>
-					</article>
-				</div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <img class="image" alt="aws cloud practitioner logo"
+                         src="images/certificates/aws_cloud_practitioner_logo.png"/>
+                    <h3><a target="_blank" href="files/AWS_Cloud_Practitioner.pdf">AWS Certified Cloud Practitioner</a>
+                    </h3>
+                    <a target="_blank" href="files/AWS_Cloud_Practitioner.pdf" class="btnGreen">View certificate</a>
+                </article>
+            </div>
 
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<img class="image" alt="microsoft azure fundamentals logo"
-							src="images/certificates/microsoft_azure_fundamentals_logo.png" />
-						<h3><a target="_blank" href="files/Azure_Fundamentals.pdf">Microsoft Certified: Azure Fundamentals</a></h3>
-						<a target="_blank" href="files/Azure_Fundamentals.pdf" class="btnGreen">View certificate</a>
-					</article>
-				</div>
+        </div>
+    </div>
+</article>
 
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<img class="image" alt="aws cloud practitioner logo"
-							src="images/certificates/aws_cloud_practitioner_logo.png" />
-						<h3><a target="_blank" href="files/AWS_Cloud_Practitioner.pdf">AWS Certified Cloud Practitioner</a></h3>
-						<a target="_blank" href="files/AWS_Cloud_Practitioner.pdf" class="btnGreen">View certificate</a>
-					</article>
-				</div>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
-			</div>
-		</div>
-	</article>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
-	<!-- Slideshow script -->
-	<script src="assets/splide/dist/js/splide.min.js"></script>
-	<script>
-		document.addEventListener('DOMContentLoaded', function () {
-			for (var i = 2; i <= 8; i++) {
-				var imageSliderName = '#image-slider' + i;
-				new Splide(imageSliderName, {
-					rewind: true,
-					height: '28rem',
-					type: 'fade',
-				}).mount();
-			}
-		});
-	</script>
+<!-- Slideshow script -->
+<script src="assets/splide/dist/js/splide.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        for (var i = 2; i <= 8; i++) {
+            var imageSliderName = '#image-slider' + i;
+            new Splide(imageSliderName, {
+                rewind: true,
+                height: '28rem',
+                type: 'fade',
+            }).mount();
+        }
+    });
+</script>
 </body>
 
 </html>
