@@ -344,18 +344,21 @@
 
 <!-- Certifications -->
 <article id="certificates" class="wrapper style2">
-    <div class="container" id="certificate-container">
+    <div class="container">
         <header>
             <h2>I&#39;m certified in the following:</h2>
         </header>
-        <div class="row aln-center">
+        <div class="row" id="certificate-row">
             <div class="col-4 col-6-medium col-12-small">
                 <article class="box style2">
                     <img class="image" alt="Cloud security knowledge logo"
                          src="images/certificates/cloud_security_knowledge_logo.png"/>
                     <h3><a target="_blank" href="files/Cloud_Security_Knowledge.pdf">Certificate of Cloud Security
                         Knowledge</a></h3>
-                    <a target="_blank" href="files/Cloud_Security_Knowledge.pdf" class="btnGreen">View certificate</a>
+                    <div>
+                        <a target="_blank" href="files/Cloud_Security_Knowledge.pdf" class="btnGreen">View
+                            certificate</a>
+                    </div>
                 </article>
             </div>
 
@@ -365,7 +368,9 @@
                          src="images/certificates/microsoft_azure_fundamentals_logo.png"/>
                     <h3><a target="_blank" href="files/Azure_Fundamentals.pdf">Microsoft Certified: Azure
                         Fundamentals</a></h3>
-                    <a target="_blank" href="files/Azure_Fundamentals.pdf" class="btnGreen">View certificate</a>
+                    <div>
+                        <a target="_blank" href="files/Azure_Fundamentals.pdf" class="btnGreen">View certificate</a>
+                    </div>
                 </article>
             </div>
 
@@ -375,10 +380,11 @@
                          src="images/certificates/aws_cloud_practitioner_logo.png"/>
                     <h3><a target="_blank" href="files/AWS_Cloud_Practitioner.pdf">AWS Certified Cloud Practitioner</a>
                     </h3>
-                    <a target="_blank" href="files/AWS_Cloud_Practitioner.pdf" class="btnGreen">View certificate</a>
+                    <div>
+                        <a target="_blank" href="files/AWS_Cloud_Practitioner.pdf" class="btnGreen">View certificate</a>
+                    </div>
                 </article>
             </div>
-
         </div>
     </div>
 </article>
@@ -395,8 +401,8 @@
 <script src="assets/splide/dist/js/splide.min.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        for (var i = 2; i <= 8; i++) {
-            var imageSliderName = '#image-slider' + i;
+        for (let i = 2; i <= 8; i++) {
+            const imageSliderName = '#image-slider' + i;
             new Splide(imageSliderName, {
                 rewind: true,
                 height: '28rem',
