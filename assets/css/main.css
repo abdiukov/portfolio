@@ -2549,3 +2549,10 @@ a.btnBlue{
 	background-color: #008CBA; /* Blue */
 	color: white !important;
 }
+
+/* Make cards with my portfolio look more consistent on larger devices */
+@media screen and (min-width: 736px) {
+	.container-header {
+		height: 150px;
+	}
+}
