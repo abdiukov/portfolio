@@ -2469,16 +2469,26 @@ background: #fff;
 box-shadow: inset 0px 0px 0px 1px rgb(0 0 0 / 15%), 0px 2px 0px 0px rgb(0 0 0 / 10%);
 }
 
-#certificate-container .col-4{
-background: #fff;
-box-shadow: inset 0px 0px 0px 1px rgb(0 0 0 / 15%), 0px 2px 0px 0px rgb(0 0 0 / 10%);
-}
- 
-#certificate-container img{
+#applications img{
 	margin-bottom: 30px;
 	max-width:100%;
 	max-height:100%;
-} 
+}
+
+#certificate-row .col-4{
+background: #fff;
+box-shadow: inset 0px 0px 0px 1px rgb(0 0 0 / 15%), 0px 2px 0px 0px rgb(0 0 0 / 10%);
+}
+
+#certificate-row{
+	margin-left: 0;
+}
+
+#certificate-row img{
+	margin-bottom: 30px;
+	max-width:100%;
+	max-height:100%;
+}
 
 #hidden_iframe{
 	display: none;
