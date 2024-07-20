@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /files/Ashton-Abdiukov-Resume.pdf
 
 Sitemap: https://www.ashton-abdiukov.com/sitemap.xml
